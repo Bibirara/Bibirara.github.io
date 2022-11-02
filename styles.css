@@ -1,320 +1,317 @@
 body,
 html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 main {
-    width: 656px;
-    margin: auto;
+	width: 656px;
+	margin: auto;
 }
 
 section {
-    margin-bottom: 80px;
-    overflow: hidden;
-    border-top: 1px solid #aaa;
+	margin-bottom: 80px;
+	overflow: hidden;
+	border-top: 1px solid #aaa;
 }
 
 h1 {
-    font-size: 48px;
-    font-weight: bold;
-    margin-top: 0;
-    padding-top: 16px;
-    /* border-top: 1px solid #aaa; */
-    margin-bottom: 24px;
+	font-size: 48px;
+	font-weight: bold;
+	margin-top: 0;
+	padding-top: 16px;
+	/* border-top: 1px solid #aaa; */
+	margin-bottom: 24px;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 0em;
-    text-align: left;
-    margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin: 0;
 }
 
 h2.italic {
-    font-style: italic;
+	font-style: italic;
 }
 
 p {
-    font-size: 16px;
-    line-height: 20px;
-    color: #333;
-    margin: 0;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333;
+	margin: 0;
 }
 
 .link {
-    width: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    border-bottom: 1px dashed #aaa;
-    box-sizing: border-box;
-    font-size: 12px;
-    line-height: 28px;
-    display: inline-block;
-    padding-right: 2px;
+	width: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #aaa;
+	box-sizing: border-box;
+	font-size: 12px;
+	line-height: 28px;
+	display: inline-block;
+	padding-right: 2px;
 }
 
-.link>a {
-    display: inline-block;
-    text-decoration: none;
+.link > a {
+	display: inline-block;
+	text-decoration: none;
 }
 
-.link>span {
-    display: inline-block;
-    width: 36px;
+.link > span {
+	display: inline-block;
+	width: 36px;
 }
 
 .title {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #888;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 14px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #888;
 }
 
 #home {
-    padding-top: 16px;
+	padding-top: 16px;
 }
 
 #home .image {
-    width: 320px;
-    float: left;
+	width: 320px;
+	float: left;
 }
 
 #home .image img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 8px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 8px;
 }
 
 #home .me {
-    width: 320px;
-    float: left;
-    margin-left: 16px;
+	width: 320px;
+	float: left;
+	margin-left: 16px;
 }
 
-#home>p {
-    width: 320px;
-    float: left;
-    margin-left: 16px;
+#home > p {
+	width: 320px;
+	float: left;
+	margin-left: 16px;
 }
 
 #research .gap {
-    height: 40px;
+	height: 40px;
 }
 
-#research>div>p {
-    position: relative;
+#research > div > p {
+	position: relative;
 }
 
-#research>div>p>span {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 54px;
-    background: linear-gradient(#ffffff00, #ffffffff);
+#research > div > p > span {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 54px;
+	background: linear-gradient(#ffffff00, #ffffffff);
 }
 
 #research button {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    margin: 0;
-    background: none;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    padding: 8px 0px;
-    display: none;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	margin: 0;
+	background: none;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+	padding: 8px 0px;
+	display: none;
 }
 
 #research button:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
-#teaching>div {
-    overflow: hidden;
+#teaching > div {
+	overflow: hidden;
 }
 
 #teaching h2 {
-    margin-top: 8px;
+	margin-top: 8px;
 }
 
 #teaching .detail {
-    width: 304px;
-    float: left;
-    margin-bottom: 32px;
-    margin-right: 32px;
+	width: 304px;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 32px;
 }
 
-#teaching .detail:nth-of-type(2) {
-    margin-right: 0px;
+#teaching .detail:nth-of-type(2n) {
+	margin-right: 0px;
+	float: right;
 }
 
 #teaching .detail p {
-    margin-top: 8px;
+	margin-top: 8px;
 }
 
 #cv .pdf {
-    width: 100%;
-    border: 1px dashed #aaa;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+	width: 100%;
+	border: 1px dashed #aaa;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
 }
 
 #cv .pdf img {
-    width: 100%;
+	width: 100%;
 }
 
 #cv .pdf a {
-    background-color: #000;
-    color: #fff;
-    padding: 16px 32px;
-    border: 0;
-    outline: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+	background-color: #000;
+	color: #fff;
+	padding: 16px 32px;
+	border: 0;
+	outline: hidden;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.2);
+	position: absolute;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #cv .pdf:hover a {
-    visibility: visible;
-    cursor: pointer;
+	visibility: visible;
+	cursor: pointer;
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    transform: translateX(-100%);
-    padding-right: 32px;
-    padding-top: 64px;
-    background-color: #fff;
+	position: fixed;
+	top: 0;
+	transform: translateX(-100%);
+	padding-right: 32px;
+	padding-top: 64px;
+	background-color: #fff;
 }
 
 nav ul {
-    border-right: 1px solid #aaa;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 28px;
-    list-style-type: none;
-    padding-right: 32px;
+	border-right: 1px solid #aaa;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	list-style-type: none;
+	padding-right: 32px;
 }
 
 nav ul a {
-    color: #111;
-    text-decoration: none;
+	color: #111;
+	text-decoration: none;
 }
 
 nav ul a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 #footer {
-    border-top: 1px solid #aaa;
-    padding-top: 16px;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: space-between;
+	border-top: 1px solid #aaa;
+	padding-top: 16px;
+	padding-bottom: 16px;
 }
 
 #footer p {
-    margin-bottom: 8px;
+	margin-bottom: 4px;
 }
 
-@media (max-width:800px) {
-    main {
-        width: 320px;
-        margin-left: 32px;
-        margin-right: none;
-    }
-    section {
-        padding-top: 80px;
-    }
-    #home .image {
-        width: 96px;
-        float: left;
-    }
-    #home .image span {
-        display: none;
-    }
-    #home .me {
-        width: 200px;
-        float: left;
-        margin-left: 16px;
-    }
-    #home h1 {
-        border: 0;
-    }
-    #home>p {
-        width: 320px;
-        clear: both;
-        margin-left: 0;
-        margin-top: 16px;
-    }
-    #research>div {
-        width: 320px;
-    }
-    #research>div>p {
-        height: 200px;
-        overflow: hidden;
-    }
-    #research>div>p>span {
-        display: block;
-    }
-    #research button {
-        display: block;
-    }
-    #research .gap {
-        height: 56px;
-    }
-    #teaching h2 {
-        margin-top: 24px;
-    }
-    #teaching .detail {
-        clear: both;
-        margin-right: 0;
-    }
-    #teaching .detail:nth-of-type(2) {
-        margin-right: 0px;
-    }
-    #cv .pdf {
-        width: 320px;
-    }
-    #footer {
-        display: block;
-    }
-    nav {
-        position: fixed;
-        top: 0;
-        transform: translateX(0%);
-        padding-right: 32px;
-        padding: 0;
-        width: 100%;
-        max-width: 656px;
-    }
-    nav ul {
-        border: 0;
-        border-bottom: 1px solid #aaa;
-        padding: 0;
-        display: flex;
-        justify-content: flex-start;
-        width: 100%;
-        line-height: 40px;
-        margin-bottom: 0;
-    }
-    nav ul li {
-        margin-right: 24px;
-    }
+@media (max-width: 800px) {
+	main {
+		width: 320px;
+		margin-left: 32px;
+		margin-right: none;
+	}
+	section {
+		padding-top: 80px;
+	}
+	#home .image {
+		width: 96px;
+		float: left;
+	}
+	#home .image span {
+		display: none;
+	}
+	#home .me {
+		width: 200px;
+		float: left;
+		margin-left: 16px;
+	}
+	#home h1 {
+		border: 0;
+	}
+	#home > p {
+		width: 320px;
+		clear: both;
+		margin-left: 0;
+		margin-top: 16px;
+	}
+	#research > div {
+		width: 320px;
+	}
+	#research > div > p {
+		height: 200px;
+		overflow: hidden;
+	}
+	#research > div > p > span {
+		display: block;
+	}
+	#research button {
+		display: block;
+	}
+	#research .gap {
+		height: 56px;
+	}
+	#teaching h2 {
+		margin-top: 24px;
+	}
+	#teaching .detail {
+		clear: both;
+		margin-right: 0;
+	}
+	#teaching .detail:nth-of-type(2n) {
+		margin-right: 0px;
+		float: left;
+	}
+	#cv .pdf {
+		width: 320px;
+	}
+	nav {
+		position: fixed;
+		top: 0;
+		transform: translateX(0%);
+		padding-right: 32px;
+		padding: 0;
+		width: 100%;
+		max-width: 656px;
+	}
+	nav ul {
+		border: 0;
+		border-bottom: 1px solid #aaa;
+		padding: 0;
+		display: flex;
+		justify-content: flex-start;
+		width: 100%;
+		line-height: 40px;
+		margin-bottom: 0;
+	}
+	nav ul li {
+		margin-right: 24px;
+	}
 }
